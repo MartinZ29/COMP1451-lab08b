@@ -13,7 +13,6 @@ public abstract class Employee {
 	private String lastName;
 	
 	public Employee() {
-		super();
 	}
 	
 	public Employee(String firstName, String lastName) {
