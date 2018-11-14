@@ -18,8 +18,8 @@ public class SalariedEmployee extends Employee{
 	
 	public SalariedEmployee(String firstName, String lastName, double yearlySalary, int exceptedWeeksWorkPerYear) {
 		super(firstName, lastName);
-		this.yearlySalary = yearlySalary;
-		this.exceptedWeeksWorkPerYear = exceptedWeeksWorkPerYear;
+		setYearlySalary(yearlySalary);
+		setExceptedWeeksWorkPerYear(exceptedWeeksWorkPerYear);
 	}
 
 	public double getYearlySalary() {
