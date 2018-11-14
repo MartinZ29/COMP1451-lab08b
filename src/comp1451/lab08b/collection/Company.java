@@ -7,6 +7,8 @@
 
 package comp1451.lab08b.collection;
 
+import java.util.ArrayList;
+
 public class Company {
 
 }
