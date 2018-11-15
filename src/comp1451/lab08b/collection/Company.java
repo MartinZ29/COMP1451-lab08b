@@ -9,6 +9,15 @@ package comp1451.lab08b.collection;
 
 import java.util.ArrayList;
 
+import comp1451.lab08b.data.Employee;
+
 public class Company {
 
+	private ArrayList<Employee> employees;
+	
+	public Company() {
+		employees = new ArrayList<Employee>();
+	}
+	
+	
 }
