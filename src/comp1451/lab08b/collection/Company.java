@@ -19,5 +19,11 @@ public class Company {
 		employees = new ArrayList<Employee>();
 	}
 	
-	
+	public void addEmployee(Employee employee) {
+		if(employee != null) {
+			employees.add(employee);
+		}else {
+			System.out.println();
+		}
+	}
 }
