@@ -26,4 +26,8 @@ public class Company {
 			System.out.println();
 		}
 	}
+	
+	public void removeEmpolyee(Employee employee) {
+		
+	}
 }
