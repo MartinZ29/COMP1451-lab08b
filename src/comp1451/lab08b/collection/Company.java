@@ -28,6 +28,10 @@ public class Company {
 	}
 	
 	public void removeEmpolyee(Employee employee) {
-		
+		if(employee != null) {
+			employees.remove(employee);
+		}else {
+			System.out.println();
+		}
 	}
 }
