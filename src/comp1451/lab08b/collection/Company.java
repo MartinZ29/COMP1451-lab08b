@@ -34,4 +34,8 @@ public class Company {
 			System.out.println();
 		}
 	}
+	
+	public void displayAllEmployee() {
+		
+	}
 }
