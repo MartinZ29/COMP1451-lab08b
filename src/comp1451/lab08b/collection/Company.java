@@ -15,10 +15,18 @@ public class Company {
 
 	private ArrayList<Employee> employees;
 	
+	/**
+	 * Default constructor to initialize ArrayList
+	 */
 	public Company() {
 		employees = new ArrayList<Employee>();
 	}
 	
+	/**
+	 * Add employees to the Company
+	 * @param employee
+	 * 				- is the employee Object to add to ArrayList
+	 */
 	public void addEmployee(Employee employee) {
 		if(employee != null) {
 			employees.add(employee);
@@ -27,6 +35,11 @@ public class Company {
 		}
 	}
 	
+	/**
+	 * Remove employee Object from the Company
+	 * @param employee
+	 * 				- is the employee Obj
+	 */
 	public void removeEmpolyee(Employee employee) {
 		if(employee != null) {
 			employees.remove(employee);
@@ -35,6 +48,9 @@ public class Company {
 		}
 	}
 	
+	/**
+	 * Display all employee information of names and monthly earnings
+	 */
 	public void displayAllEmployee() {
 		if(employees != null && employees.size()>0) {
 			for(Employee e : employees) {
