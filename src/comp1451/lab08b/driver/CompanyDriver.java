@@ -12,11 +12,20 @@ import comp1451.lab08b.collection.Company;
 import comp1451.lab08b.data.*;
 
 public class CompanyDriver {
-
+	
+	public CompanyDriver() {
+		super();
+	}
+	
 	public static void main(String[] args) {
 		
-		ArrayList<Employee> employees = new ArrayList<Employee>();
-
+		new CompanyDriver().test();
+		
+	}
+	
+	public void test() {
+		Company employees = new Company();
+		employees.displayAllEmployee();
 	}
 
 }
