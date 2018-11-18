@@ -13,18 +13,14 @@ import comp1451.lab08b.data.*;
 
 public class CompanyDriver {
 	
-	public CompanyDriver() {
-		super();
-	}
-	
+
 	public static void main(String[] args) {
 		
-		new CompanyDriver().test();
-		
-	}
-	
-	public void test() {
 		Company employees = new Company();
+		employees.displayAllEmployee();
+		employees.addEmployee(new HourlyEmployee("abc","def",40,50));
+		employees.addEmployee(new CommissionEmployee("ghi","hjk",0.5,8000));
+		employees.addEmployee(new SalariedEmployee("lmn","opq",50000,11));
 		employees.displayAllEmployee();
 	}
 
