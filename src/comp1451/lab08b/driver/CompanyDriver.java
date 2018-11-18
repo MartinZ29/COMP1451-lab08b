@@ -23,7 +23,7 @@ public class CompanyDriver {
 		//add three types of employees to company;
 		HourlyEmployee employeeOne = new HourlyEmployee("abc","def",40,50);
 		CommissionEmployee employeeTwo = new CommissionEmployee("ghi","hjk",0.5,8000);
-		SalariedEmployee employeeThree = new SalariedEmployee("lmn","opq",50000,11);
+		SalariedEmployee employeeThree = new SalariedEmployee("lmn","opq",50000,48);
 		
 		employees.addEmployee(employeeOne);
 		employees.addEmployee(employeeTwo);
