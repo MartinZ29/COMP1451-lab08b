@@ -45,6 +45,6 @@ public class SalariedEmployee extends Employee{
 	}
 	
 	public double calculateMonthlyEarnings() {
-		return yearlySalary/exceptedWeeksWorkPerYear;
+		return yearlySalary/exceptedWeeksWorkPerYear*(52/12);
 	}
 }
