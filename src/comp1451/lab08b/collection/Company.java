@@ -44,4 +44,5 @@ public class Company {
 			System.out.println("The company has no employee.");
 		}
 	}
+	
 }

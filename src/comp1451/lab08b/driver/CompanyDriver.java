@@ -7,7 +7,6 @@
 
 package comp1451.lab08b.driver;
 
-import java.util.ArrayList;
 import comp1451.lab08b.collection.Company;
 import comp1451.lab08b.data.*;
 
@@ -18,9 +17,14 @@ public class CompanyDriver {
 		
 		Company employees = new Company();
 		employees.displayAllEmployee();
-		employees.addEmployee(new HourlyEmployee("abc","def",40,50));
-		employees.addEmployee(new CommissionEmployee("ghi","hjk",0.5,8000));
-		employees.addEmployee(new SalariedEmployee("lmn","opq",50000,11));
+		HourlyEmployee employeeOne = new HourlyEmployee("abc","def",40,50);
+		CommissionEmployee employeeTwo = new CommissionEmployee("ghi","hjk",0.5,8000);
+		SalariedEmployee employeeThree = new SalariedEmployee("lmn","opq",50000,11);
+		employees.addEmployee(employeeOne);
+		employees.addEmployee(employeeTwo);
+		employees.addEmployee(employeeThree);
+		employees.displayAllEmployee();
+		employees.removeEmpolyee(employeeThree);
 		employees.displayAllEmployee();
 	}
 
