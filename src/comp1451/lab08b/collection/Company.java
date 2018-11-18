@@ -36,7 +36,7 @@ public class Company {
 	}
 	
 	public void displayAllEmployee() {
-		if(employees != null) {
+		if(employees != null && employees.size()>0) {
 			for(Employee e : employees) {
 				System.out.println("Employee [firstName = " + e.getFirstName() + ", lastName= " + e.getLastName() + " , monthlyEarnings = " + e.calculateMonthlyEarnings());
 			}
